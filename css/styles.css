@@ -1,0 +1,306 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+/* Estilo personalizado para el footer */
+.footer-rosa-palo {
+    background-color: #F8BBd0;
+    color: white; /* Color del texto en blanco */
+    padding: 1rem;
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+/* Estilo del body */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Títulos y subtítulos en cursiva */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Fuente cursiva y elegante */
+    font-style: italic;
+    color: #333; /* Color oscuro para los títulos */
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #555; /* Color más suave para los subtítulos */
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo de la tarjeta destacada */
+.destacada {
+    background-color: white;
+    border: 4px solid #F5C4D4; /* Borde en rosa palo */
+    border-radius: 15px; /* Bordes redondeados */
+    width: 60%; /* Ancho reducido */
+    max-width: 500px; /* Limitar el ancho máximo */
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5); /* Sombra en rosa pastel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo de la imagen en la tarjeta destacada */
+.destacada img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados para la imagen */
+}
+
+/* Estilo de los textos en la tarjeta destacada */
+.destacada h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.destacada p {
+    font-size: 1rem;
+    color: #666;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+/* Estilo del botón en la tarjeta destacada */
+.destacada button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.destacada button:hover {
+    background-color: #555;
+}
+
+/* CONTACTO STYLE */
+body {
+    line-height: 1.6;
+    padding: 1rem;
+    background-color: #fafafa; /* Color de fondo sutil */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo del grid */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "item-1 item-1 item-2 item-2"
+        "item-1 item-1 item-2 item-2"
+        "item-3 item-3 item-2 item-2";
+    gap: 1rem;
+    padding: 2rem;
+    margin: 0 auto;  /* Centrado con márgenes laterales */
+    max-width: 1200px;  /* Limita el ancho del grid */
+    width: 75%;  /* Grid ocupa el 75% de la pantalla */
+    background-color: #f4f4f4;
+    border-radius: 15px;  /* Bordes redondeados */
+}
+
+/* Estilo de los ítems dentro del grid */
+.grid-item-1, .grid-item-2, .grid-item-3 {
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.grid-item-1 {
+    grid-area: item-1;
+    background-color: #f8bbd0;  /* Fondo rosa pastel */
+}
+
+.grid-item-2 {
+    grid-area: item-2;
+    background-color: #ffe0b2;
+}
+
+.grid-item-2 img {
+    width: 100%;  /* La imagen ocupará el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupará el 100% del alto del contenedor */
+    object-fit: cover;  /* Ajusta la imagen para que cubra el contenedor sin distorsión */
+    border-radius: 10px; /* Bordes redondeados si es necesario */
+}
+
+.grid-item-3 {
+    grid-area: item-3;
+    background-color: #c8e6c9;
+}
+
+/* Estilo general del formulario */
+form {
+    background-color: #fff5e1;  /* Fondo color crema */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;  /* Ancho máximo para que no sea muy grande */
+    margin: 2rem auto;  /* Centrar el formulario con márgenes */
+}
+
+/* Campos del formulario */
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #f8bbd0;  /* Línea inferior rosa pastel */
+    background-color: #fff;  /* Fondo blanco */
+    font-size: 1rem;
+}
+
+/* Botón de envío */
+form input[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    background-color: #333;  /* Color negro */
+    color: #f8bbd0;  /* Letra rosa pastel */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;  /* Un poco más oscuro al pasar el mouse */
+}
+
+form.sent input[type="submit"] {
+    background-color: #A9A9A9;  /* Color gris apagado al enviar */
+    color: white;  /* Texto blanco */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+a {
+    color: #d14777;
+}
+
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-3";
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .grid-item-2 img {
+        height: auto; /* La imagen no forzará el contenedor a ser muy alto */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-3";
+        padding: 1rem; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    form {
+        padding: 1rem; /* Reducir el padding del formulario */
+    }
+}
+
+
+/* Archivo Aboutme = Sobre mi */
+/* Estilos para la tarjeta 'Sobre mí' */
+.about-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5); /* sombra rosa palo */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto; /* Centrado */
+}
+
+.about-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5); /* sombra rosa palo */
+}
+
+.about-card p {
+    color: #333; /* Texto en color negro */
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .about-card {
+        max-width: 600px;
+    }
+}
+
