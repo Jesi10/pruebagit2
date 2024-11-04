@@ -172,35 +172,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* ----------Sección Contactos------------------*/
+/* ----------Sección Contactos que contiene el Grid------------------*/
 
-
-body {
-    line-height: 1.6;
-    padding: 1rem;
-    background-color: #fafafa; /* Color de fondo sutil */
-}
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Estilo del grid */
 .grid-container {
