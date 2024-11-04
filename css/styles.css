@@ -7,8 +7,78 @@
 /* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Marcellus+SC&display=swap" rel="stylesheet');
 
-/* Estilo personalizado para el footer */
+
+.navbar-tech {
+    background-color: #281752; /* Azul de fondo */
+    
+}
+
+/* Asegúrate de aplicar color al texto de los enlaces en el navbar */
+.navbar-tech .navbar-nav .nav-link,
+.navbar-tech {
+    color: #fff; /* Color fucsia para los enlaces y el título */
+}
+
+/* Opcional: cambia el color al pasar el cursor */
+.navbar-tech .navbar-nav .nav-link:hover {
+    color: #f8bbd0; /* Fucsia más claro al pasar el cursor */
+}
+
+
+.navbar-brand {
+    font-family: 'BioRhyme', serif;
+    font-size: 2rem; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    color:#f8bbd0; /* Color del texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para hacerla destacar */
+}
+
+
+
+/*Aside*/
+.card-header {
+    background-color: #CCCCFF;
+    color: #4B4B4B;
+    font-weight: bold;
+}
+
+
+.quote-text {
+    color:  #1e9fc3;
+    font-style: italic;
+}
+/* Estilo general para los botones */
+.btn-inspiradora {
+    border: none;
+    background: transparent;
+    transition: fill 0.3s ease;
+}
+
+/* Icono "Me gusta" - color rojo al pasar el ratón */
+.btn-inspiradora.heart-btn svg {
+    transition: fill 0.3s ease; /* transición para suavizar el cambio de color */
+    fill: #4e4b4b; /* color inicial */
+}
+
+.btn-inspiradora.heart-btn:hover svg {
+    fill: #d14777; /* color rosa chicle al hacer hover */
+}
+
+/* Icono "No me gusta" - color azul marino al pasar el ratón */
+.btn-inspiradora.thumb-down-btn svg {
+    transition: fill 0.3s ease;
+    fill: #4e4b4b; /* color inicial, usando el color actual del botón */
+}
+
+.btn-inspiradora.thumb-down-btn:hover svg {
+    fill: #0F4C81; /* azul francia al hacer hover */
+}
+
+
+
+/* Estilo personalizado para el footer de noticias*/
 .footer-rosa-palo {
     background-color: #F8BBd0;
     color: white; /* Color del texto en blanco */
@@ -16,9 +86,7 @@
     text-align: center;
 }
 
-.justificado {
-    text-align: justify;
-}
+
 
 /* Estilo del body */
 body {
@@ -30,16 +98,17 @@ body {
 }
 
 /* Títulos y subtítulos en cursiva */
-h1, h2, h3, h4, h5, h6 {
+.card-title, h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif; /* Fuente cursiva y elegante */
     font-style: italic;
-    color: #333; /* Color oscuro para los títulos */
+    color: #061099; /* Color oscuro para los títulos */
 }
 
-h2 {
-    font-size: 1.8rem;
-    color: #555; /* Color más suave para los subtítulos */
+.card-subtitle {font-size: 1.8rem;
+    color: #8A2BE2; /* Color más suave para los subtítulos */
 }
+
+
 
 /* Contenedor principal */
 .contenedor {
@@ -48,6 +117,7 @@ h2 {
     align-items: center;
     padding: 20px;
 }
+
 
 /* Estilo de la tarjeta destacada */
 .destacada {
@@ -75,10 +145,10 @@ h2 {
 .destacada h3 {
     margin-top: 15px;
     font-size: 1.5rem;
-    color: #333;
+    color: #8A2BE2;
 }
 
-.destacada p {
+.card-text, .destacada p {
     font-size: 1rem;
     color: #666;
     text-align: justify;
@@ -226,7 +296,7 @@ form.sent input[type="submit"] {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #281752;
     color: white;
 }
 
@@ -296,6 +366,7 @@ a {
 .about-card p {
     color: #333; /* Texto en color negro */
     margin-top: 20px;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
