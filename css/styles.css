@@ -9,24 +9,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Marcellus+SC&display=swap" rel="stylesheet');
 
+/* ----------Estilo Body ------------------*/
 
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* ----------Tipografía------------------*/
+/* Títulos y subtítulos en cursiva */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Fuente cursiva y elegante */
+    font-style: italic;
+    color: #061099; /* Color oscuro para los títulos */
+}
+
+
+/* ----------navbar ------------------*/
 .navbar-tech {
     background-color: #281752; /* Azul de fondo */
     
 }
 
-/* Asegúrate de aplicar color al texto de los enlaces en el navbar */
+/* Aplicamos color claro al texto de los enlaces en el navbar */
 .navbar-tech .navbar-nav .nav-link,
 .navbar-tech {
-    color: #fff; /* Color fucsia para los enlaces y el título */
+    color: #fff; /* Color claro para los enlaces y el título */
 }
 
-/* Opcional: cambia el color al pasar el cursor */
+/* Animación sutil: Cambia el color al pasar el cursor */
 .navbar-tech .navbar-nav .nav-link:hover {
-    color: #f8bbd0; /* Fucsia más claro al pasar el cursor */
+    color: #f8bbd0; /* Rosa pastel más claro al pasar el cursor */
 }
 
-
+/* Destacando el nombre del Blog con otra fuente */
 .navbar-brand {
     font-family: 'BioRhyme', serif;
     font-size: 2rem; /* Ajusta el tamaño de la fuente */
@@ -35,9 +54,33 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para hacerla destacar */
 }
 
+/* ----------Sección Noticias Principales ------------------*/
+.noticias-principales .card-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #061099;
+}
+
+.noticias-principales .card-subtitle {
+    font-size: 1.8rem;
+    color: #8A2BE2;
+}
+
+.noticias-principales .card-text {
+    font-size: 1rem;
+    color: #666;
+    text-align: justify;
+}
+
+.noticias-principales .footer-rosa-palo {
+    background-color: #F8BBd0;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
 
 
-/*Aside*/
+/*Aside con Citas inspiradoras*/
 .card-header {
     background-color: #CCCCFF;
     color: #4B4B4B;
@@ -49,14 +92,15 @@
     color:  #1e9fc3;
     font-style: italic;
 }
-/* Estilo general para los botones */
+/* Estilo general para los botones Like/dislike*/
 .btn-inspiradora {
     border: none;
     background: transparent;
     transition: fill 0.3s ease;
 }
 
-/* Icono "Me gusta" - color rojo al pasar el ratón */
+/* Animación like-Dislike*/
+/* Icono Corazón de "Me gusta" - color rosa chicle al pasar el ratón */
 .btn-inspiradora.heart-btn svg {
     transition: fill 0.3s ease; /* transición para suavizar el cambio de color */
     fill: #4e4b4b; /* color inicial */
@@ -66,7 +110,7 @@
     fill: #d14777; /* color rosa chicle al hacer hover */
 }
 
-/* Icono "No me gusta" - color azul marino al pasar el ratón */
+/* Icono pulgar abajo de "No me gusta" - color azul marino al pasar el ratón */
 .btn-inspiradora.thumb-down-btn svg {
     transition: fill 0.3s ease;
     fill: #4e4b4b; /* color inicial, usando el color actual del botón */
@@ -77,40 +121,9 @@
 }
 
 
+/* ----------Noticias Destacadas------------------*/
 
-/* Estilo personalizado para el footer de noticias*/
-.footer-rosa-palo {
-    background-color: #F8BBd0;
-    color: white; /* Color del texto en blanco */
-    padding: 1rem;
-    text-align: center;
-}
-
-
-
-/* Estilo del body */
-body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-/* Títulos y subtítulos en cursiva */
-.card-title, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif; /* Fuente cursiva y elegante */
-    font-style: italic;
-    color: #061099; /* Color oscuro para los títulos */
-}
-
-.card-subtitle {font-size: 1.8rem;
-    color: #8A2BE2; /* Color más suave para los subtítulos */
-}
-
-
-
-/* Contenedor principal */
+/* Contenedor principal de Noticias destacadas */
 .contenedor {
     display: flex;
     flex-direction: column;
