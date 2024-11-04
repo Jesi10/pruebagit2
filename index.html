@@ -14,20 +14,20 @@
 
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-tech">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Blog</a>
+            <a class="navbar-brand" href="#">Ladybird'blog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    <a class="nav-link" href="html/populares.html">Populares</a>
-                    <a class="nav-link" href="html/contacto.html">Contacto</a>
-                    <a class="nav-link" href="html/aboutme.html">Sobre mí</a>
-                    <a class="nav-link" href="html/iniciarsesion.html">Iniciar Sesión</a>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active me-3" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link me-3" href="html/populares.html">Populares</a>
+                    <a class="nav-link me-3" href="html/contacto.html">Contacto</a>
+                    <a class="nav-link me-3" href="html/aboutme.html">Sobre mí</a>
+                    <a class="nav-link me-3" href="html/iniciarsesion.html">Iniciar Sesión</a>
                 </div>
             </div>
         </div>
@@ -38,14 +38,14 @@
         <div class="row">
             <!-- Noticias Recientes -->
             <div class="col-sm-12 col-md-8">
-                <h2>Noticias Recientes</h2>
+                <h1>Noticias Recientes</h1>
 
                 <!-- Noticia1 -->
                 <div class="card mb-3">
                     <img src="assets/imagen1.jpg" class="card-img-top" alt="imagen del primer artículo">
                     <div class="card-body">
-                        <h1>Programar</h1>
-                        <h2>¿Para qué?</h2>
+                        <h1 class="card-title">Programar</h1>
+                        <h3 class="card-subtitle">¿Para qué?</h3>
                         <p class="card-text"><small class="text-body-secondary">Publicado el 20 de Octubre de 2024</small></p>
                         <p class="card-text">Estudiar programación es fundamental en el mundo actual, ya que la tecnología está presente en casi todos los aspectos de nuestra vida. Aprender a programar desarrolla habilidades de pensamiento lógico y resolución de problemas, valiosas en diversos campos profesionales. Además, en un mercado laboral competitivo, dominar lenguajes de programación puede abrir puertas a numerosas oportunidades laborales.</p>
                         <p class="card-text">La programación también potencia la creatividad, permitiendo a los individuos transformar ideas en productos tangibles como aplicaciones y sitios web. Esta capacidad no solo es gratificante a nivel personal, sino que también puede tener un impacto positivo en la sociedad al fomentar la innovación en áreas como la educación y la salud.</p>
@@ -58,8 +58,8 @@
                 <!-- Noticia2 -->
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h1>Impacto de las redes sociales en la Salud Mental</h1>
-                        <h2>La importancia de encontrar un equilibrio</h2>
+                        <h1 class="card-title">Redes sociales y Salud Mental</h1>
+                        <h3 class="card-subtitle">Encontrar un equilibrio</h3>
                         <p class="card-text"><small class="text-body-secondary">Publicado el 18 de Octubre de 2024</small></p>
                         <p class="card-text">Las redes sociales tienen un impacto significativo en la salud mental, tanto positivo como negativo. Por un lado, pueden fomentar conexiones y apoyo social, permitiendo a las personas compartir experiencias y encontrar comunidades afines. Sin embargo, también pueden contribuir a la ansiedad, la depresión y la baja autoestima, especialmente entre los jóvenes. La comparación constante con las imágenes idealizadas de otros y la presión por mantener una presencia en línea pueden generar sentimientos de insuficiencia y aislamiento.</p>
                         <p class="card-text">Además, el uso excesivo de redes sociales puede afectar la calidad del sueño y la concentración, lo que a su vez influye en el bienestar general. Es crucial que los usuarios sean conscientes de su consumo de redes sociales y busquen un equilibrio saludable, limitando el tiempo dedicado a estas plataformas y priorizando interacciones cara a cara para fortalecer su salud mental.</p>
@@ -73,27 +73,42 @@
 
             <!-- Citas Inspiradoras -->
             <div class="col-sm-12 col-md-4">
-                <div class="card">
-                    <h5 class="card-header">Citas Inspiradoras</h5>
+                <div class="card mt-5">
+                    <h5 class="card-header text-center">Citas Inspiradoras</h5>
                     <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <h3>"El único modo de hacer un gran trabajo es amar lo que haces." - Steve Jobs</h3>
+                        <blockquote class="blockquote mb-0 d-flex align-items-center">
+                            <h3 class="quote-text">"El único modo de hacer un gran trabajo es amar lo que haces." - Steve Jobs</h3>
                         </blockquote>
+                        <div class="d-flex justify-content-center mt-3">
+                            <!-- Botón de "Me gusta" -->
+                            <button type="button" class="btn btn-light btn-inspiradora heart-btn me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </button>
+
+                            <!-- Botón de "No me gusta" -->
+                            <button type="button" class="btn btn-light btn-inspiradora thumb-down-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down-fill" viewBox="0 0 16 16">
+                                    <path d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.38 1.38 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51q.205.03.443.051c.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.9 1.9 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.856 0-.29-.036-.586-.113-.857a2 2 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.2 3.2 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28H8c-.605 0-1.07.08-1.466.217a4.8 4.8 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Pie de página -->
+    <!-- footer -->
     <footer>
         <p>Derechos Reservados © 2024 @Ladybird</p>
         <a href="https://www.google.com/maps/place/Salta" target="_blank">Salta, Argentina</a>
     </footer>
 
-    <!-- SCRIPTS -->
+    <!-- Script de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
