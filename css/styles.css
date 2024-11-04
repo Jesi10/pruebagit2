@@ -172,23 +172,10 @@ ul {
     padding-left: 20px;
 }
 
-/* Estilo del botón en la tarjeta destacada */
-.destacada button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-}
 
-.destacada button:hover {
-    background-color: #555;
-}
+/* ----------Sección Contactos------------------*/
 
-/* CONTACTO STYLE */
+
 body {
     line-height: 1.6;
     padding: 1rem;
@@ -260,7 +247,7 @@ header nav ul li a {
     background-color: #c8e6c9;
 }
 
-/* Estilo general del formulario */
+/* Estilo general del formulario Situado en grid*/
 form {
     background-color: #fff5e1;  /* Fondo color crema */
     padding: 2rem;
@@ -270,7 +257,7 @@ form {
     margin: 2rem auto;  /* Centrar el formulario con márgenes */
 }
 
-/* Campos del formulario */
+/* Campos del formulario situado en Grid */
 form input[type="text"],
 form input[type="email"],
 form select,
@@ -295,7 +282,7 @@ form input[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+/* Animación sutil*/
 form input[type="submit"]:hover {
     background-color: #555;  /* Un poco más oscuro al pasar el mouse */
 }
@@ -305,20 +292,8 @@ form.sent input[type="submit"] {
     color: white;  /* Texto blanco */
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #281752;
-    color: white;
-}
 
-a {
-    color: #d14777;
-}
-
-
-/* Media queries para responsividad */
+/* Media queries del Grid para responsividad */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-areas:
@@ -349,8 +324,8 @@ a {
 }
 
 
-/* Archivo Aboutme = Sobre mi */
-/* Estilos para la tarjeta 'Sobre mí' */
+/* -------Sección About mÍ------------------*/
+
 .about-card {
     width: 100%;
     max-width: 400px;
@@ -382,9 +357,21 @@ a {
     text-align: justify;
 }
 
+/* Media queries para responsividad */
 @media (min-width: 768px) {
     .about-card {
         max-width: 600px;
     }
 }
 
+/* ----------Footer------------------*/
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #281752;
+    color: white;
+}
+
+a {
+    color: #d14777;
+}
