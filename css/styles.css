@@ -364,6 +364,84 @@ form.sent input[type="submit"] {
     }
 }
 
+/* ----------Iniciar Sesión------------------*/
+/* Estilo general del formulario */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .login-form {
+    background-color: #fff5e1; /* Fondo color crema */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Ancho máximo */
+    margin: 2rem auto; /* Centrar el formulario */
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color:#061099;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Campos del formulario */
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #f8bbd0; /* Línea inferior rosa pastel */
+    background-color: #fff; /* Fondo blanco */
+    font-size: 1rem;
+  }
+  
+  /* Botón de envío */
+  .login-form input[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    background-color: #333; /* Color negro */
+    color: #f8bbd0; /* Letra rosa pastel */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    background-color: #555; /* Un poco más oscuro al pasar el mouse */
+  }
+  
+  /* Estado de envío (opcional) */
+  .login-form.sent input[type="submit"] {
+    background-color: #A9A9A9; /* Color gris apagado */
+    color: white; /* Texto blanco */
+  }
+  
+  /* Enlace de recuperación de contraseña */
+  .forgot-password {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #061099;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .forgot-password:hover {
+    color: #f8bbd0; /* Rosa pastel */
+  }
+  
+
+
 /* ----------Footer------------------*/
 footer {
     text-align: center;
