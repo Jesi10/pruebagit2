@@ -1,0 +1,17 @@
+
+.navbar-tech {
+    background-color: $navbar-bg-color; /* Azul de fondo */
+}
+
+.navbar-tech .navbar-nav .nav-link,
+.navbar-tech {
+    color: $navbar-link-color; /* Color de los enlaces y el título */
+}
+
+.navbar-brand {
+    font-family: $navbar-brand-font;
+    font-size: $navbar-brand-size; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    color: $navbar-brand-color; /* Color del texto */
+    text-shadow: $text-shadow; /* Sombra para hacerla destacar */
+}

@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+
+    a {
+        color: $footer-link-color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
