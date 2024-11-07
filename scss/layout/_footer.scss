@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    padding: $footer-padding;
+    background-color: $background-color-navbar-footer;
+    color: $white-color;
+
+    a {
+        color: $link-color-footer;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline; 
+        }
+    }
+}
