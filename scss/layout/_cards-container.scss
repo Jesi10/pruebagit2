@@ -1,0 +1,47 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $container-padding-popular;
+}
+
+// Estilo de la tarjeta destacada
+.destacada {
+    background-color: $white-color;
+    border: 4px solid $primary-color; // Borde en rosa palo
+    border-radius: $border-radius; // Bordes redondeados
+    width: $card-width; // Ancho reducido
+    max-width: $card-max-width; // Limitar el ancho máximo
+    margin: 15px 0;
+    padding: $container-padding;
+    box-shadow: 0 4px 8px $box-shadow-color; // Sombra en rosa pastel
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Estilo de la imagen en la tarjeta destacada
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: $border-radius-popular; // Bordes redondeados para la imagen
+    }
+
+    // Estilo de los encabezados y textos en la tarjeta destacada
+    h3 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+        color: $subtitle-purple;
+    }
+
+    p {
+        font-size: 1rem;
+        color: $text-gray;
+        text-align: justify;
+    }
+
+    // Estilo de la lista dentro de .destacada
+    ul {
+        padding-left: 20px;
+    }
+}

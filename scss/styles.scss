@@ -1,10 +1,16 @@
-@import './base/variables';
-@import './base/fonts';
+//utilities
+@import './utilities/variables';
+//base
 @import './base/reset';
 @import './base/body';
-@import './base/fonts';
-@import './layout/aside';
-@import './layout/asidebotones';
-@import './layout/header';
+@import './base/typography';
 
-@import './layout/footer';
+//layout
+
+@import './layout/header';
+@import './layout/newsmain';
+@import './layout/asidequotes';
+@import './layout/animacionesquotes';
+@import './layout/cards-container';
+
+

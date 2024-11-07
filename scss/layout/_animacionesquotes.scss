@@ -1,0 +1,21 @@
+.btn-inspiradora {
+    border: none;
+    background: transparent;
+    transition: fill 0.3s ease;
+}
+
+.btn-inspiradora.heart-btn svg {
+    fill: $button-icon-color;  
+}
+
+.btn-inspiradora.heart-btn:hover svg {
+    fill: $button-hover-pink;  
+}
+
+.btn-inspiradora.thumb-down-btn svg {
+    fill: $button-icon-color; 
+}
+
+.btn-inspiradora.thumb-down-btn:hover svg {
+    fill: $button-hover-blue;  
+}

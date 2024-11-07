@@ -1,0 +1,80 @@
+//colores generales
+$background-light: #f8f8f8;   //fondo claro para el sitio      
+$gray-color-gris: #333; //color gris oscuro
+$white-color: #FFFFFF; // blanco puro
+$title-color-blue: #061099; //color azul para titulos principales
+$highlight-color-1: #f8bbd0; // Pastel rosa
+$highlight-color-2: #ffe0b2; // Pastel naranja
+$highlight-color-3: #c8e6c9; // Pastel verde
+$text-gray: #666; //gris claro
+              
+// Tipografía
+$primary-font-text: 'Lato', sans-serif; //fuente principal, textos en general        
+$title-font: 'Playfair Display', serif;   $title-font //Fuente para titulos
+$font-brand: 'BioRhyme', serif; //titulo navbar //Fuente del Título en navbar
+
+
+//Navbar
+$background-color-navbar-footer: #281752; // Azul de fondo del navbar, comparte color con Footer  
+$text-color-navbar: #fff; // Color claro para enlaces del navbar         
+$hover-color-navbar: #f8bbd0; // Color rosa pastel claro al pasar el cursor   
+$brand-color: #f8bbd0; // Color del texto del título del blog 
+
+//Colores Cards y noticias
+
+$title-color-blue: #061099; //color fondo de noticias Populares
+$subtitle-purple: #8A2BE2; //color subtitulos
+$footer-pink-news: #F8BBD0; //rosa palo de pie de página noticias principales
+$card-header-quote-bg: #CCCCFF; //color encabezado citas
+$card-colortitle:#4B4B4B; //color del título en las tarjetas de citas inspiradoras
+$quote-blue: #1e9fc3;//color azul citas
+$button-icon-color: #4e4b4b; //color animaciones del boton like-dislike
+$button-hover-pink: #d14777;//color corazón
+$button-hover-blue: #0F4C81;// color pulgar abajo
+$primary-color-pink: #F5C4D4;
+
+//variables grid
+
+$grid-bg: #f4f4f4; //fondo contenedor grid
+$grid-width: 75%; //ancho grid
+$max-grid-width: 1200px; 
+$border-radius-grid: 15px;//bordes redondeados
+$form-bg: #fff5e1; //fondo formularios
+$form-submit-hover-bg: #555; //gris
+$form-submit-sent-bg: #A9A9A9;  //gris topo
+
+// Variables Noticias Populares
+
+$box-shadow-color-popular: rgba(255, 182, 193, 0.5);
+$border-radius-popular: 15px;
+$container-padding-popular: 20px;
+$card-width-popular: 60%;
+$card-max-width-popular: 500px;
+
+// Colores Iniciar sesión
+$background-color-login: #f3f4f6; 
+$secondary-pink-color: #f8bbd0; //rosa pastel
+$form-padding-login: 2rem;
+$form-width-login: 600px;
+$font-size-login: 1rem;
+$border-radius-login: 10px;
+
+//variables Aboutme
+ 
+$highlight-color-about: fuchsia; // Color para la clase .highlight
+$border-radius-about: 15px;
+$card-width-about: 400px;
+$card-max-width-large: 600px;
+$shadow-rose-opacity: rgba(255, 182, 193, 0.5);
+
+//footer
+$background-color-navbar-footer: #281752;  // Color de fondo del footer
+$link-color-footer: #d14777;       // Color de los enlaces
+$footer-padding: 1rem;       // Padding del footer
+
+// Breakpoints
+$mobile-min: 320px;
+$mobile-max: 460px;
+$desktop-min: 1024px;
+$desktop-max: 1920px;
+
