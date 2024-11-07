@@ -1,10 +1,10 @@
-/* Error: expected ":".
+/* Error: Undefined variable.
  *    ,
- * 13 | $title-font: 'Playfair Display', serif;   $title-font //Fuente para titulos
- *    |                                                                            ^
+ * 12 |     border: 4px solid $primary-color; // Borde en rosa palo
+ *    |                       ^^^^^^^^^^^^^^
  *    '
- *   scss\utilities\_variables.scss 13:76  @import
- *   scss\styles.scss 2:9                  root stylesheet */
+ *   scss\layout\_cards-container.scss 12:23  @import
+ *   scss\styles.scss 16:9                    root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected \":\".\a    \2577 \a 13 \2502  $title-font: 'Playfair Display', serif;   $title-font //Fuente para titulos\d\a    \2502                                                                             ^\a    \2575 \a   scss\\utilities\\_variables.scss 13:76  @import\a   scss\\styles.scss 2:9                  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 12 \2502      border: 4px solid $primary-color; // Borde en rosa palo\d\a    \2502                        ^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\_cards-container.scss 12:23  @import\a   scss\\styles.scss 16:9                    root stylesheet";
 }
