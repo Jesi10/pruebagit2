@@ -9,13 +9,13 @@
 // Estilo de la tarjeta destacada
 .destacada {
     background-color: $white-color;
-    border: 4px solid $primary-color; // Borde en rosa palo
-    border-radius: $border-radius; // Bordes redondeados
-    width: $card-width; // Ancho reducido
-    max-width: $card-max-width; // Limitar el ancho máximo
+    border: 4px solid $primary-color-pink; // Borde en rosa palo
+    border-radius: $border-radius-popular; // Bordes redondeados
+    width: $card-width-popular; // Ancho reducido
+    max-width: $card-max-width-popular; // Limitar el ancho máximo
     margin: 15px 0;
-    padding: $container-padding;
-    box-shadow: 0 4px 8px $box-shadow-color; // Sombra en rosa pastel
+    padding: $container-padding-popular;
+    box-shadow: 0 4px 8px $box-shadow-color-popular; // Sombra en rosa pastel
     display: flex;
     flex-direction: column;
     align-items: center;

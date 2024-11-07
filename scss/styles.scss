@@ -1,14 +1,13 @@
 //utilities
 @import './utilities/variables';
+
 //base
 @import './base/reset';
 @import './base/body';
 @import './base/fonts';
 @import './base/typography';
 
-
 //layout
-
 @import './layout/header';
 @import './layout/newsmain';
 @import './layout/asidequotes';
@@ -17,6 +16,12 @@
 @import './layout/grid';
 @import './layout/formgrid';
 @import './layout/aboutme';
+@import './layout/loginform';
+@import './layout/footer';
+
+//components
+@import './components/button-login';
+
 
 
 
