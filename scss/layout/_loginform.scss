@@ -1,0 +1,48 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $background-color-login;
+  }
+  
+  .login-form {
+    background-color: $form-bg;
+    padding: $form-padding-login;
+    border-radius: $border-radius-login;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: $form-width-login;
+    margin: 2rem auto;
+    
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: $title-color-blue;
+      margin-bottom: 1.5rem;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-bottom: 2px solid $secondary-pink-color;
+      background-color: #fff;
+      font-size: $font-size;
+    }
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: $title-color-blue;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: color 0.3s;
+    
+    &:hover {
+      color: $secondary-pink-color;
+    }
+  }

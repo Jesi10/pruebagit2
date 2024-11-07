@@ -1,0 +1,46 @@
+.about-card {
+    width: 100%;
+    max-width: $card-width-about;
+    background-color: $white-color;
+    border-radius: $border-radius-about;
+    box-shadow: 0 4px 8px $shadow-rose-opacity;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 5px solid $white-color;
+        box-shadow: 0 4px 8px $shadow-rose-opacity;
+    }
+
+    h2 {
+        color: $highlight-color-about;
+    }
+
+    p {
+        color: $gray-color-gris;  
+        margin-top: 20px;
+        text-align: justify; // Justificación del texto dentro de .about-card
+    }
+
+    // Clase para resaltar texto
+    .highlight {
+        color: $highlight-color-about;
+    }
+}
+
+// Media queries para pantallas grandes
+@media (min-width: 768px) {
+    .about-card {
+        max-width: $card-max-width-large;
+    }
+}
