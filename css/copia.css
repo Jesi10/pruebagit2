@@ -329,6 +329,21 @@ form.sent input[type="submit"] {
     text-align: justify;
 }
 
+
+.about-card h2 {
+    color: fuchsia; /* Valor definido en la variable $highlight-color */
+}
+
+.about-card p {
+    color: #333; /* Valor definido en la variable $text-color-dark */
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.about-card .highlight {
+    color: fuchsia; /* Valor definido en la variable $highlight-color */
+}
+
 /* Media queries para responsividad */
 @media (min-width: 768px) {
     .about-card {
