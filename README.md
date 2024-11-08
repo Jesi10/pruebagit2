@@ -17,7 +17,7 @@ Se utilizaron diversas tecnologías, como **HTML**, **CSS**, **Bootstrap** y **S
 
 - **Carpeta CSS**: contiene un archivo principal, `styles.css`, y una copia del archivo CSS original antes de la migración a Sass.
 
-- **Carpeta SCSS**: incluye subcarpetas para organizar todos los *partials*.
+- **Carpeta SCSS**: incluye subcarpetas para organizar todos los componentes en *partials*.
 
 - Dos archivos principales llamados `styles.scss` e `index.html`.
 

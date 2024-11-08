@@ -28,9 +28,9 @@ $footer-pink-news: #F8BBD0; //rosa palo de pie de página noticias principales
 $card-header-quote-bg: #CCCCFF; //color encabezado citas
 $card-colortitle:#4B4B4B; //color del título en las tarjetas de citas inspiradoras
 $quote-blue: #1e9fc3;//color azul citas
-$button-icon-color: #4e4b4b; //color animaciones del boton like-dislike
+$button-icon-color: #555; //color animaciones del boton like-dislike
 $button-hover-pink: #d14777;//color corazón
-$button-hover-blue: #0F4C81;// color pulgar abajo
+$button-hover-blue: #061099;// color pulgar abajo
 $primary-color-pink: #F5C4D4;
 
 //variables grid
@@ -72,9 +72,11 @@ $background-color-navbar-footer: #281752;  // Color de fondo del footer
 $link-color-footer: #d14777;       // Color de los enlaces
 $footer-padding: 1rem;       // Padding del footer
 
-// Breakpoints
-$mobile-min: 320px;
-$mobile-max: 460px;
-$desktop-min: 1024px;
-$desktop-max: 1920px;
+
+// Variables para media queries
+$breakpoint-mobile: 460px;     // Pantallas móviles
+$breakpoint-tablet: 768px;     // Pantallas tablet
+$breakpoint-desktop: 1024px;   // Pantallas de escritorio
+$breakpoint-large: 1920px;     // Pantallas de escritorio grandes
+
 

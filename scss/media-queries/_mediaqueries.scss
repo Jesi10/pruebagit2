@@ -1,0 +1,35 @@
+// Archivo _media-queries.scss
+
+@include responsive(null, $breakpoint-mobile) {
+    // Estilos para dispositivos móviles hasta 460px
+    .navbar-tech {
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+    }
+    .about-card {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .destacada {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+@include responsive($breakpoint-desktop, $breakpoint-large) {
+    // Estilos para pantallas de escritorio grandes (1024px - 1920px)
+    .navbar-tech {
+        .navbar-brand {
+            font-size: 2rem;
+        }
+    }
+    .about-card {
+        max-width: 800px;
+        padding: 2rem;
+    }
+    .destacada {
+        width: 50%;
+        padding: 2rem;
+    }
+}

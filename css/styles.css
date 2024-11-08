@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-inspiradora.heart-btn svg {
-  fill: #4e4b4b;
+  fill: #555;
 }
 
 .btn-inspiradora.heart-btn:hover svg {
@@ -86,11 +86,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-inspiradora.thumb-down-btn svg {
-  fill: #4e4b4b;
+  fill: #555;
 }
 
 .btn-inspiradora.thumb-down-btn:hover svg {
-  fill: #0F4C81;
+  fill: #061099;
 }
 
 .contenedor {
@@ -260,11 +260,6 @@ form.sent input[type=submit] {
   color: fuchsia;
 }
 
-@media (min-width: 768px) {
-  .about-card {
-    max-width: 600px;
-  }
-}
 .login-container {
   display: flex;
   justify-content: center;
@@ -343,6 +338,33 @@ footer a:hover {
 .login-form.sent input[type=submit] {
   background-color: #A9A9A9;
   color: white;
+}
+
+@media (max-width: 460px) {
+  .navbar-tech .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .about-card {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .destacada {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .navbar-tech .navbar-brand {
+    font-size: 2rem;
+  }
+  .about-card {
+    max-width: 800px;
+    padding: 2rem;
+  }
+  .destacada {
+    width: 50%;
+    padding: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

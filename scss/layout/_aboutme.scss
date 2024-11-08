@@ -38,9 +38,3 @@
     }
 }
 
-// Media queries para pantallas grandes
-@media (min-width: 768px) {
-    .about-card {
-        max-width: $card-max-width-large;
-    }
-}
