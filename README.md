@@ -1,4 +1,4 @@
-# :rocket: Bienvenido a mi Proyecto
+# Bienvenido a mi Proyecto
 
 Este proyecto fue desarrollado gracias a los conocimientos adquiridos en el curso de Desarrollo Web de Coderhouse.
 
@@ -17,7 +17,7 @@ Se utilizaron diversas tecnologías, como **HTML**, **CSS**, **Bootstrap** y **S
 
 - **Carpeta CSS**: contiene un archivo principal, `styles.css`, y una copia del archivo CSS original antes de la migración a Sass.
 
-- **Carpeta SCSS**: incluye subcarpetas para organizar todos los componentes en *partials*.
+- **Carpeta SCSS**: incluye subcarpetas para organizar todos los *partials*.
 
 - Dos archivos principales llamados `styles.scss` e `index.html`.
 
@@ -31,6 +31,6 @@ Se utilizaron diversas tecnologías, como **HTML**, **CSS**, **Bootstrap** y **S
 
 ---
 
-Espero que disfrutes el proyecto tanto como yo disfruté hacerlo  y gracias por tomarte el tiempo de revisarlo! :smile:
+Espero que disfrutes el proyecto tanto como yo disfrute hacerlo  y gracias por tomarte el tiempo de revisarlo! :smile:
 
 **Jésica Llanos**
