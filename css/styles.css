@@ -71,6 +71,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+.card-body-video {
+  padding: 0;
+}
+.card-body-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .btn-inspiradora {
   border: none;
   background: transparent;
