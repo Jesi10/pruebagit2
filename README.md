@@ -1,4 +1,4 @@
-# Bienvenido a mi Proyecto
+# Bienvenido a mi Blog de Noticias
 
 Este proyecto fue desarrollado gracias a los conocimientos adquiridos en el curso de Desarrollo Web de Coderhouse.
 
